@@ -298,36 +298,32 @@ function HomeData(){
                 <div class="brand-bg brand-bg-psingle theme-bg2"></div>
                 <div class="container">
                     <div class="row align-items-center">
-                        <h3 class="msection-title msection-title-white">
+                        <h4 class="ml-140 msection-title msection-title-white">
                             Activities done and engaged in currently
-                        </h3>
+                        </h4>
                         <div class="col-xxl-4">
                             <div class="section_title_wrapper mb-30 wow fadeInUp" data-wow-delay="0.3s">                       
-                                <h2 class="msection-title msection-title-white">
-                                    Activities done and engaged in currently:
-                                </h2>
+                                <div className="solutions__thumb mb-30">
+                                    <img src="assets/img/solutions/solutinos-img.png" alt="img not found" />
+                                </div>
                             </div>
                         </div>
                         <div class="col-xxl-8">
-                            <div class="brands wow fadeInUp" data-wow-delay="0.6s" style={{visibility: 'visible', animationDelay: '0.6s', animationName: 'fadeInUp'}}>
-                                <ul class="brand-line brand__active slick-initialized slick-slider">
-                                    <div class="slick-list draggable">
-                                        <div class="slick-track" style={{opacity: '1', width: '1000px', transform: 'translate3d(-250px, 0px, 0px)'}}>
-                                            <li class="slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" style={{width: '250px'}}>
-                                                <p>Bridging infrastructure & teacher availability gaps in government schools</p>                                           
-                                            </li>
-                                            <li class="slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" tabindex="0" style={{width: '250px'}}>
-                                                <p>Providing for adequate academic reading materials wherever required</p>                                            
-                                            </li>
-                                            
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    
+                        <div className="row">
+                     
+                        <div class="msingle-link mb-40 wow fadeInUp" data-wow-delay="0.9s">
+                                <ul class="necessary-link">
+                                    <li class="wow fadeInUp" data-wow-delay="0.7s"><i class="far fa-arrow-right"></i>                                
+                                    <p style={{color:'white'}}>Bridging infrastructure & teacher availability gaps in government schools</p>
+                                    </li>
+                                    <li class="wow fadeInUp" data-wow-delay="0.7s"><i class="far fa-arrow-right"></i>
+                                    <p style={{color:'white'}}>
+                                    Providing for adequate academic reading materials wherever required
+                                    </p></li>
+
                                 </ul>
-                                
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -374,60 +370,22 @@ function HomeData(){
                             <div className="mfaq-left ml-35">
                                 <div className="section_title_wrapper wow fadeInUp" data-wow-delay="0.3s">                       
                                     <h2 className="msection-title msection-title-white">
-                                        Have Any Question <br/> in Your  <span>Mind</span>
+                                     Future <span>focus</span>
                                     </h2>
                                 </div>     
                                 <div className="faq-content faq-white wow fadeInUp" data-wow-delay="0.6s">
-                                    <div className="accordion" id="accordionExample">
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingTwo">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                What are the trends in sales over recent years?
-                                            </button>
-                                            </h2>
-                                            <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Natoque tempus tempor pharetra ligula ultrices viverra Inceptos fringilla taciti fusce necesi elementum pharetra duis naostra enim hace varius massarang urna parturient conubia </p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingOne">
-                                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                    What are management trends in the industry?
-                                                </button>
-                                            </h2>
-                                            <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                                <div className="accordion-body">
-                                                    <p>Natoque tempus tempor pharetra ligula ultrices viverra Inceptos fringilla taciti fusce necesi elementum pharetra duis naostra enim hace varius massarang urna parturient conubia</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingThree">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                What type of lifestyle is relevant for the market?
-                                            </button>
-                                            </h2>
-                                            <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Natoque tempus tempor pharetra ligula ultrices viverra Inceptos fringilla taciti fusce necesi elementum pharetra duis naostra enim hace varius massarang urna parturient conubia</p>
-                                            </div>
-                                            </div>
-                                        </div>
-                                        <div className="accordion-item">
-                                            <h2 className="accordion-header" id="headingThree1">
-                                            <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
-                                                What are the main percent of males and females?
-                                            </button>
-                                            </h2>
-                                            <div id="collapseThree1" className="accordion-collapse collapse" aria-labelledby="headingThree1" data-bs-parent="#accordionExample">
-                                            <div className="accordion-body">
-                                                <p>Natoque tempus tempor pharetra ligula ultrices viverra Inceptos fringilla taciti fusce necesi elementum pharetra duis naostra enim hace varius massarang urna parturient conubia </p>
-                                            </div>
-                                            </div>
-                                        </div>
+                                <div className="row">
+                                    <div class="msingle-link mb-40 wow fadeInUp" data-wow-delay="0.9s">
+                                        <ul class="necessary-link">
+                                            <li class="wow fadeInUp" data-wow-delay="0.7s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>Actively participating in integrated rural community development</p></li>
+                                            <li class="wow fadeInUp" data-wow-delay="1.10s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>Focus on adopting villages and holistic development of the same</p></li>
+                                            <li class="wow fadeInUp" data-wow-delay="1.30s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>Education along with Health & Sanitation will be the prime concern areas addressed</p></li>
+                                            <li class="wow fadeInUp" data-wow-delay="1.60s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>Promote quality of services delivered be it basic education, basic health, early childhood care and education by supplementing the effort of Government and suitably identifying the critical gaps and addressing it squarely</p></li>
+                                            <li class="wow fadeInUp" data-wow-delay="2.10s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>To cater to product innovation by mastering value added areas like processing and finishing.</p></li>
+                                            <li class="wow fadeInUp" data-wow-delay="2.30s"><i class="far fa-arrow-right"></i><p style={{color:'white'}}>We believe by continuously engaging with the community in terms of social development we will contribute immensely in guiding them towards a better standard of living in all areas and provide a positive platform for growth.</p></li>
+                                        </ul>
                                     </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
